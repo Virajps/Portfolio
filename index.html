@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
+
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Viraj</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Viraj</span><br />
+            Java Developer
+          </h1>
+
+          <a href="#contact" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/viraj-shah-b84703210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/Virajps" class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <svg
+            class="home__blob"
+            viewBox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+              <image
+                class="home__blob-img"
+                x="70"
+                y="70"
+                href="assets/img/perfil.png"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/about.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Viraj</h2>
+            <p class="about__text">
+              I'm a passionate Full Stack Java Developer with experience in
+              building robust web applications using Spring Boot, React.js,
+              MySQL, and Bootstrap. I enjoy solving real-world problems through
+              clean, efficient code and continuously learning new technologies
+              to improve my craft. Currently, I'm working on exciting projects
+              that combine backend logic with responsive frontend design to
+              deliver seamless user experiences.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              Proficient in Java, Spring Boot, React.js, and MySQL for building
+              full-stack web applications. Experienced in developing RESTful
+              APIs, secure authentication systems, and responsive user
+              interfaces.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-spring-boot skills__icon"></i>
+                <span class="skills__name">Java & Spring Boot</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">60%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-react skills__icon"></i>
+                <span class="skills__name">React.js</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">70%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-data skills__icon"></i>
+                <span class="skills__name">MySQL</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-file-find skills__icon"></i>
+                <span class="skills__name">Testing</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">75%</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img src="assets/img/ps.png" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+            <a href="assets/img/work1.jpg" data-lightbox="mywork" class="work__img">
+                <img src="assets/img/work1.jpg" alt="" />
+              </a>
+              <a href="assets/img/work2.png" data-lightbox="mywork" class="work__img">
+                <img src="assets/img/work2.png" alt="" />
+              </a>
+              <a href="assets/img/work3.png" data-lightbox="mywork" class="work__img">
+                <img src="assets/img/work3.png" alt="" />
+              </a>
+              <a href="assets/img/work4.png" data-lightbox="mywork" class="work__img">
+                <img src="assets/img/work4.png" alt="" />
+              </a>
+              <a href="assets/img/work5.png" data-lightbox="mywork" class="work__img">
+                <img src="assets/img/work5.png" alt="" />
+              </a>
+              <a href="assets/img/work6.png" data-lightbox="mywork" class="work__img">
+                <img src="assets/img/work6.png" alt="" />
+              </a>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+     <!-- Wrapper Section for Contact and Get in Touch -->
+<section class="contact-wrapper section" id="contact">
+  <div class="contact-flex">
+    
+    <!-- Contact Form -->
+    <div class="contact-form-section">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+          <input type="text" name="from_name" placeholder="Name" class="contact__input">
+          <input type="email" name="reply_to" placeholder="Email" class="contact__input">
+          <textarea name="message" cols="0" rows="10" class="contact__input"></textarea>            
+          <input type="submit" value="Send" class="contact__button button" />
+        </form>
+      </div>
+    </div>
+
+    <!-- Get in Touch Info -->
+    <div class="get-in-touch-section">
+      <h2 class="section-title">Get in Touch</h2>
+      <p>Feel free to reach out for collaborations or just a friendly hello 👋
+      </p>
+      <br>
+      <ul class="get-in-touch-list">
+        <li><strong>Email:</strong> vpshah543@gmail.com</li>
+        <li><strong>Phone:</strong> +91-70161-94255</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Viraj</p>
+      <div class="footer__social">
+        <a
+          href="https://www.facebook.com/viraj.shah.3781995/"
+          class="footer__icon"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/v_shah543/" class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://x.com/VirajSh37856097" class="footer__icon"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+      </div>
+      <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+    </footer>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init("MiJQ-hc0ShnBQIwKB"); // Replace with your EmailJS user ID
+      })();
+
+      document
+        .querySelector(".contact__form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          emailjs.sendForm("service_36lh3aw", "template_knqx7id", this).then(
+            function (response) {
+              alert("Message sent successfully!");
+            },
+            function (error) {
+              alert("Failed to send message. Please try again.");
+              console.log(error);
+            }
+          );
+        });
+    </script>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+
+  </body>
+</html>
